@@ -64,6 +64,7 @@ public class WriteLoopsTest
     public void TestCountDown()
     {
         WriteLoops writeLoo1 = new WriteLoops();
+    
         assertEquals(100, writeLoo1.countDown());
     }
 
@@ -71,6 +72,7 @@ public class WriteLoopsTest
     public void Test2to32()
     {
         WriteLoops writeLoo1 = new WriteLoops();
+     
         assertEquals(0, writeLoo1.byTwoTo32());
     }
 
@@ -85,6 +87,7 @@ public class WriteLoopsTest
     public void TestNestedFors()
     {
         WriteLoops writeLoo1 = new WriteLoops();
+    
         assertEquals(100, writeLoo1.nestedFors());
     }
 
@@ -92,6 +95,7 @@ public class WriteLoopsTest
     public void TestHelloZipCode()
     {
         WriteLoops writeLoo1 = new WriteLoops();
+        System.out.println(writeLoo1.helloZipCode());
         assertEquals(47, writeLoo1.helloZipCode());
     }
 
